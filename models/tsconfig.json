@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "declarationDir": "./dist",
+      "outDir": "./dist",
+      "module": "ESNext",
+      "target": "ES6",
+      "rootDir": "./",
+      "strict": true
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
+  

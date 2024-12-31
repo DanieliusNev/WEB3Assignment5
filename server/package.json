@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "src",
+  "scripts": {
+    "start": "tsx --watch src/gameserver.ts"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "models": "../models",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.13"
+  }
+}
